@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>French Subject+Verb</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="selectDiv">
+        <div id="selectContainer">
+            <select id="subjectSelect">
+                <option value='-1'>[Sujet]</option>
+                <option value='0'>Je</option>
+                <option value='1'>Tu</option>
+                <option value='2'>Il/Elle</option>
+                <option value='3'>Nous</option>
+                <option value='4'>Vous</option>
+                <option value='5'>Ils/Elles</option>
+            </select>
+            <br><br>
+            <select id="verbSelect">
+                <option value='-1'>[Verbe]</option>
+                <option value='0'>chanter</option>
+                <option value='1'>entendre</option>
+                <option value='2'>grossir</option>
+                <option value='3'>parler</option>
+                <option value='4'>partir</option>
+                <option value='5'>vendre</option>
+            </select>
+        </div>
+        <div id="imgBorder">
+            <img id="showImg">
+        </div>
+        <p id="sentence"></p>
+    </div>
+    <script src="sentence.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
